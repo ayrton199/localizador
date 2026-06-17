@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#hora { font-size: 2em; font-weight: bold; color: #333; }
+#fecha { color: #666; margin-bottom: 10px; }
+#ubicacion { margin-top: 15px; color: #007bff; }
